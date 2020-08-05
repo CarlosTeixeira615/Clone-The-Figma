@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+.logo {
+    display: flex;
+    margin-top: 35px;
+}
+
+.menus{
+    margin-left: 300px;
+    display: flex;
+}
+.menus h1{
+    margin-left: 35px;
+    color: #B8BECD;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-top: 16px;
+}
+.menus .home{
+    color: black;
+}
+.register{
+    margin-top: 4px; 
+    height: 54px;
+    width: 132px;
+    left: 978px;
+    top: 35px;
+    border-radius: 15px;
+    border: 3px solid #FB8F1D;
+    color: white;
+    background-color: #FB8F1D;
+    outline: none;
+}
+.login{
+    margin-top: 4px; 
+    height: 54px;
+    width: 132px;
+    border-radius: 15px;
+    outline: none;
+    margin-right: 32px;
+    left: 978px;
+    background-color: white;
+    color: #FB8F1D;
+    border: 3px solid #FB8F1D;
+}
+.login:hover,
+.register:hover{
+    color: white;
+    background-color: #ff8400;
+}
+.login h1,
+.register h1 {
+    margin-top: 8px;
+    
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700px;
+font-size: 15px;
+}

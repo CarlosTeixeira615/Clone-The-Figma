@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    
+}
+.folder{
+    background-color:#ece8e8;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.frames{
+    margin-left: 480px;
+}
+
+.frames img{
+    margin-right: 60px;
+}

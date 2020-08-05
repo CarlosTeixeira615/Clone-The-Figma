@@ -1,0 +1,12 @@
+.gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.gridd img{
+    width: 263px;
+    height: 316px;
+}
+.texto h1  {
+ position: flex;
+ flex: 1;
+}
