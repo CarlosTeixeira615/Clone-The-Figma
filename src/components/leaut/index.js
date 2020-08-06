@@ -18,7 +18,7 @@ import Final from '../Final'
 const Leaut = () => (
     <div >
         <div className='grid'>
-          <div >
+          <div className='primeiro'>
             <h1>Explore and Travel</h1>
             <h2>Holiday finder</h2>
             <div className="selected">
@@ -35,25 +35,25 @@ const Leaut = () => (
                 <option selected>Date</option> 
             </select>
             </div>
-            <button className="button">Explore</button>
+            <button className="button"><h3>Explore</h3></button>
           </div>
-            <img className='img' src={Imagem} />
-        </div>
-        <div className="grid">
-            <img className='img' src={Imagem2} />
+            <img className='img margin' src={Imagem} />
+        </div >
+        <div className="grid segundo">
+            <img className='img ' src={Imagem2} />
             <div>
-                <div>
+                <div className='format'>
                     <h1>A new way to explore the world </h1>
                     <a>For decades travellers have reached for Lonely Planet books
                      when looking to plan and execute their perfect 
                      trip, but now, they can also 
                      let Lonely Planet Experiences lead the way</a>
                 </div>
-                <button className="button">Explore</button>
+                <button className="button format"><h3>Explore</h3></button>
             </div>
 
         </div>
-        <div >
+        <div className="paises" >
             <div>
                 <h1>Featured destinations</h1>
                 <a href="/">View All <img src={Vector} alt=""/></a>
@@ -89,7 +89,7 @@ const Leaut = () => (
                 </div>
             </div>
         </div>
-        <div className="grid">
+        <div className="grid version">
             <div>
                 <div>
                     <h1>Guides by Thousand Sunny</h1>
@@ -98,13 +98,16 @@ const Leaut = () => (
                         (iOS and Android) is the ultimate resource
                         before and during a trip.</a>
                 </div>
-                <button className="button">Download</button>
+                <button className="button"><h3>Download</h3></button>
             </div>
-            <img className='img' src={Imagem2} />
+            <div className='version2'>
+
+            <img className='img ' src={Imagem2} />
+            </div>
 
         </div>
         <div className="grid">
-            <div>
+            <div className="testemunhas">
                 <div>
                     <h1>Testimonials</h1>
                     <Stars />

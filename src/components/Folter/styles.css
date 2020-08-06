@@ -3,6 +3,7 @@
     
 }
 .folder{
+    height: 250px;
     background-color:#ece8e8;
 }
 .grids{
@@ -15,4 +16,16 @@
 
 .frames img{
     margin-right: 60px;
+}
+.folder li{
+    list-style-type: none;
+}
+.final{
+    margin-left: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    align-items: center;
+}
+.icones{
+    margin-top: 30px;
 }

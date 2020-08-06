@@ -25,6 +25,8 @@
     width: 220px;
     height: 52px;
     margin-top: 30px;
+    list-style: none;
+    background-color: white;
 }
 .button {
     margin-top: 30px;
@@ -59,4 +61,41 @@
     
     border-radius: 16px;
 
+}
+.primeiro {
+    margin-left: 80px;
+    margin-top: 60px;
+    
+}
+.marin{
+    margin-top: 100px;
+}
+.segundo, .paises {
+    margin-left: 50px;
+}
+.format {
+    margin-left: 200px;
+}
+.version{
+    margin-left: 50px;
+}
+.version2 img{
+    max-width: 600px;
+}
+.testemunhas{
+    margin-left: 50px;
+}
+.segundo button{
+    font-size: 500;
+
+}
+.paises h1{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.paises p{
+    margin-top: 5px;
+    margin-left: 5px;
 }

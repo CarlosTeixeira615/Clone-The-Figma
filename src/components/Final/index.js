@@ -10,14 +10,14 @@ import Imagem2 from '../../assets/final (4).jpg'
 
 
 const Final = () =>(
-    <div>
+    <div className="finall"> 
         <div>
             <h1>Trending stories</h1>
           <h1></h1>   
             <a href="/">View all <img src={vector} alt=""/> </a>
         </div>
-        <div className="gridd">
-            <div>
+        <div className="gridd ">
+            <div className="text2">
                 <img className='foto' src={Imagem1} alt=""/>
                 <div className="texto">
                 <h1>The many benefits of  
@@ -27,7 +27,7 @@ const Final = () =>(
                 <a href="">Read more</a>
                 </div>
             </div>
-            <div>
+            <div className="text2">
             <div className="texto">
                 <img className='foto' src={Imagem2} alt=""/>
                 <h1>The best Kyoto restaurant
@@ -37,7 +37,7 @@ const Final = () =>(
                 <a href="">Read more</a>
                 </div>
             </div>
-            <div>
+            <div className="text2"> 
             <div className="texto">
 
                 <img className='foto' src={Imagem3} alt=""/>
@@ -49,7 +49,7 @@ const Final = () =>(
                 <a href="">Read more</a>
                 </div>
             </div>
-            <div>
+            <div className="text2">
             <div className="texto">
 
                 <img className='foto' src={Imagem4} alt=""/>

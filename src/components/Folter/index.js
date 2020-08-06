@@ -10,7 +10,8 @@ import frame5 from '../../assets/frame (5).png'
 
 const Folder =() => (
     <footer className="folder">
-        <div className='grids'>
+        <div>
+            <div className="final grids">
             <div>
                 <img src={logo} alt=""/>
                 <p>Plan and book your perfect trip with 
@@ -43,12 +44,13 @@ const Folder =() => (
                 <li>Food And Drink</li>
             </div>
         </div>
-        <div className='frames'>
+        <div className='frames icones'>
             <img src={frame1} alt=""/>
             <img src={frame2} alt=""/>
             <img src={frame3} alt=""/>
             <img src={frame4} alt=""/>
             <img src={frame5} alt=""/>
+        </div>
         </div>
 
     </footer>

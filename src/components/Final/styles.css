@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr
 }
+text2{
+    background-color: red;
+    margin-right: 500px;
+}
 .gridd img{
     width: 263px;
     height: 316px;
@@ -9,4 +13,16 @@
 .texto h1  {
  position: flex;
  flex: 1;
+}
+.finall{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.text2 h1{
+    font-size: 20px;
+    max-width: 280px;
+}
+.text2  p{
+    max-width: 280px;
 }
