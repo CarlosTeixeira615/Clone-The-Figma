@@ -11,9 +11,8 @@ import Imagem2 from '../../assets/final (4).jpg'
 
 const Final = () =>(
     <div className="finall"> 
-        <div>
+        <div className='flex'>
             <h1>Trending stories</h1>
-          <h1></h1>   
             <a href="/">View all <img src={vector} alt=""/> </a>
         </div>
         <div className="gridd ">

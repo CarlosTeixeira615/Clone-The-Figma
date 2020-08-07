@@ -12,6 +12,22 @@
 .grid h2{
     text-decoration: underline;
 }
+.primeiro h1{
+    font-size: 60px;
+    max-width: 370px;
+    margin-bottom: 80px;
+}
+.primeiro h2{
+    margin-top: -20px;
+}
+.format a{
+    color: #7D7987;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.format h1{
+    margin-bottom: 30px;
+}
 .img{
     width:687px ;
     height: 654px;
@@ -98,4 +114,47 @@
 .paises p{
     margin-top: 5px;
     margin-left: 5px;
+}
+.view {
+    display: flex;
+}
+.view h1{
+    margin-bottom: 10px;
+}
+.view a{
+    color: #FB8F1D;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 971px;
+}
+.guias{
+    max-width: 420px;
+    margin-left: 150px;
+}
+.guias h1{
+    margin-bottom: 30px;
+}
+.guias p {
+    color: #7D7987;
+}
+.estrelas{
+    margin-top: 80px;
+}
+.estrelas h1{
+    margin-top: -280px;
+    margin-bottom: 60px;
+}
+.imagens{
+    max-height: 500px ;
+}
+.ap{
+    margin-top: 60px;
+    max-width: 330px;
+}
+.ap h2{
+    margin-top: 30px;
+    text-decoration: none;
+}
+.ap p{
+    margin-top: 25px;
 }

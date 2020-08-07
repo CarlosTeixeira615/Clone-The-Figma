@@ -5,6 +5,7 @@ import Photo from '../../assets/photo.svg'
 import Imagem from '../../assets/thousand-01 1.svg'
 import Imagem2 from '../../assets/Thousand-02 1.svg'
 import Vector from '../../assets/Vector 1.png' 
+import Celular from '../../assets/Thousand-03.svg'
 
 import Carrocel from '../../assets/carrocel (1).svg' 
 import Carroce2 from '../../assets/carrocel (2).svg' 
@@ -54,7 +55,7 @@ const Leaut = () => (
 
         </div>
         <div className="paises" >
-            <div>
+            <div className="view">
                 <h1>Featured destinations</h1>
                 <a href="/">View All <img src={Vector} alt=""/></a>
             </div>
@@ -90,8 +91,8 @@ const Leaut = () => (
             </div>
         </div>
         <div className="grid version">
-            <div>
-                <div>
+            <div className='guias'>
+                <div >
                     <h1>Guides by Thousand Sunny</h1>
                     <a>Packed with tips and advice from our
                         on-the-ground experts, our city guides app
@@ -102,24 +103,26 @@ const Leaut = () => (
             </div>
             <div className='version2'>
 
-            <img className='img ' src={Imagem2} />
+            <img className='img ' src={Celular} />
             </div>
 
         </div>
         <div className="grid">
             <div className="testemunhas">
-                <div>
+                <div className='estrelas'>
                     <h1>Testimonials</h1>
-                    <Stars />
-                    <a>“Quisque in lacus a urna fermentum euismod.
-                        Integer mi nibh, dapibus ac scelerisque eu,
-                        facilisis quis purus.
-                        Morbi blandit sit amet turpis nec”</a>
-                    <h1>Edward Newgate</h1>
-                    <p>Founder Circle</p>
+                    <Stars  />
+                    <div className='ap'>
+                        <a >“Quisque in lacus a urna fermentum euismod.
+                            Integer mi nibh, dapibus ac scelerisque eu,
+                            facilisis quis purus.
+                            Morbi blandit sit amet turpis nec”</a>
+                        <h2>Edward Newgate</h2>
+                        <p>Founder Circle</p>
+                    </div>
                 </div>
             </div>
-            <img className='img' src={Photo} />
+            <img className='imagens' src={Photo} />
 
         </div>
         <Final />
